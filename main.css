@@ -1,0 +1,183 @@
+.bgcolour{
+background: none;
+    color: white;
+    text-decoration: none;
+}
+.bgimage{
+background-image: url(/image/bg.jpg);
+background-position: center;
+background-size: cover;
+height: 700px;
+width: 100%;
+}
+.navtext{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.profile{
+    text-align: center;
+    padding-top: 155px;
+}
+
+.name{
+    font-size:60px;
+    font-weight:600;
+    letter-spacing: 7px;
+    text-align: center;
+    color: white;
+    padding-top: 13px;
+}
+.name_2{
+    font-size:20px;
+    font-weight:600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+.button{
+    text-align: center;
+    padding-top: 24px;
+}
+.getin{
+    text-align: center;
+}
+.grid{
+    padding-top: 30px;
+    height: 1100px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+.bord{
+    background: #000;
+    border: 10px;
+    border-radius: 10%;
+    border-color: white;
+}
+
+.card-title{
+    color: #55C6E6;
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+    padding-top: 85px;
+}
+.card-text{
+    font-size: 24px;
+    word-spacing: 1px;
+    line-height: 37px;
+    padding-top: 10px;
+    color: white;
+}
+.card-title2{
+    color: #55C6E6;
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+}
+.rightcard-text{
+    line-height: 49px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    word-spacing: 10px;
+    
+}
+.back{
+    background: rgb(0, 0, 0);
+    height: 435px;
+    position: relative;
+}
+
+.para{
+    height: 400px;
+    width: 100%;
+}
+.back_2{
+    background: #0D150B;
+    height:1250px;
+}
+.back_3{
+    background: #000000;
+    height:680px;
+}
+.card-title_2{
+    color: #55C6E6;
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+    padding-top: 34px;
+}
+.card-title_3{
+    color: #55C6E6;
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.rightcard-text_2{
+    line-height: 53px;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+    word-spacing: 10px;
+    
+}
+.power{
+    font-weight: 100;
+    font-size: 32px;
+    text-align: center;
+}
+.details{
+    padding-left: 25%;
+    padding-top: 14px;
+    text-align: left;
+}
+@media (max-width:768px) {
+    .details{
+        padding-left: 16%;
+    }   
+}
+@media (max-width:990px) {
+    .card-text{
+     font-size: 21px;   
+    }
+    
+}
+@media (max-width:768px) {
+    .card-text{
+     font-size: 18px;   
+     line-height: 30px;
+    }
+    
+}
+.foot{
+    height: 110px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    opacity: .5;
+    font-size:x-large;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    line-height: 40px;
+    padding-top: 22px;
+  }
+.text{
+    text-align: center;
+    color: white;
+    opacity: .5;
+
+}
+ .icon{
+     height: 70px;
+     width: 70px;
+     background: rgb(180, 92, 92);
+    text-align: center;
+    padding-top: 12px;
+    font-size: 30px;
+ }
+ .icon:hover{
+     background: red;
+ }
