@@ -1,48 +1,174 @@
 .bgcolour{
 background: none;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.bgimage{
-background-image: url(/image/bg.jpg);
+#bgimage{
+background-image: url(/image/topback.jpg);
 background-position: center;
 background-size: cover;
-height: 700px;
+position: relative;
+height: 1000px;
 width: 100%;
 }
 .navtext{
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.profile{
+#container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  #blacksheet{
+    background-color: #000;
+    opacity: 70%;
+  }
+  #blacksheet,
+  #infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+  }
+  #infoi {
+    z-index: 10;
+  }
+
+  
+.blackop{
     text-align: center;
-    padding-top: 155px;
+    background-color: black;
+    height: 1000px;
+    opacity: 50%;
+    z-index: 1;
+}
+.blacktext{
+ position: absolute;
+ z-index: -1;
+}
+.profile{
+    
+    text-align: center;
+    padding-top: 225px;
 }
 
 .name{
-    font-size:60px;
+    font-size:64px;
     font-weight:600;
     letter-spacing: 7px;
     text-align: center;
     color: white;
-    padding-top: 13px;
+    padding-top: 32px;
 }
 .name_2{
-    font-size:20px;
+    font-size:32px;
     font-weight:600;
     letter-spacing: 1px;
     text-align: center;
     color: white;
-    padding-top: 12px;
+    padding-bottom: 32px;
 }
-.button{
-    text-align: center;
-    padding-top: 24px;
+/* .button{
+
+   text-align: center;   
+    border: white;
+    opacity: 60%;
+    border-width: .5px;
+    border-style: solid;
+
+    border-radius: 20;
+    margin-left: 45%;
+    width: 200px;
+    
+}
+.button:hover{
+
+    background-color: blue;
+    text-decoration: none;
+}
+.button p{
+
+    font-size: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+ 
 }
 .getin{
     text-align: center;
+} */
+.space{
+    text-align: center;
 }
+.button {
+    border-radius: 4px;
+    
+    background-color: transparent;
+    border: white;
+    opacity: 80%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: fit-content;
+    padding: 10px;
+    height: 850px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
 .grid{
     padding-top: 30px;
     height: 1100px;

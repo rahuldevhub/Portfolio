@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+.navbar{
+    background-color: black;
+}
+#f{
+    font-family:'Jacques Francois', serif;
+    font-size: 1.2em;
+    color: white;
+}
+img{
+    height: 1.7em;
+    width: 2em;
+}
+#ham{
+    color: rgb(226, 217, 217);
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 1em;
+}
+@media screen and (max-width:700px) {
+    #l{
+        display: none;
+    }
+    #l1{
+        position: absolute;
+        top: 4em;
+        width: 7em;
+        height: 8em;
+        background-color: rgba(239, 233, 233, 0.912);
+        margin-left: -4em;
+        display: flex;
+        justify-content: center;
+    }
+    #li{
+        list-style: none;
+        padding-top: 1em;  
+    }
+    #li a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #li a:hover{
+        text-shadow: 0 0 2px rgb(8, 8, 8) ;
+    }   
+}
+@media screen and (min-width:700px) {
+    #ham{
+        display: none;
+    }
+    l{
+        display: block;
+    }
+    #l1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;   
+    }
+    #li a{
+        text-decoration: none;
+        color: rgb(220, 220, 220);
+        padding-right: 2em;
+        padding-top: 2px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #li a:hover{
+        text-shadow: 0 0 2px rgb(255, 255, 255) ;
+    }
+
+    
+}
+
+.a{
+    color: black;
+    font-family: 'Poppins';
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    height: 26em;
+    width: 100%;
+    padding-top: 2em;
+    display: block;
+    justify-content: center;
+}
+.main1{
+    background-color: black;
+    border-radius: 1.5em;
+    height: 16em;
+    width: 95%;
+}
+.main2{
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    margin-top: 2em;
+}
+.main12{
+    display: flex;
+    justify-content: center;
+}
