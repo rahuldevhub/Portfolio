@@ -148,26 +148,99 @@ width: 100%;
 
 
 
-  * {
-    box-sizing: border-box;
-  }
+  #about{
+    padding: 100px 0;
+    color: #000000;
   
-  /* Create two equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: fit-content;
-    padding: 10px;
-    height: 850px; /* Should be removed. Only for demonstration */
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+margin-top: 24px;
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-col-2{
+    flex-basis: 60%;
+    font-size: 24px;
+
+}
+.about-col-2-p2{
+   
+    font-size: 32px;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.aboutcontent{
+    font-weight: 400;
+}
+.aboutcontent span{
+    font-size: 32px;
+    font-weight: 500PX;
+}
+
+#basic{
+    padding: 100px 0;
+    color: #000;
+}
+
+.card-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+}
+
+.leftcard-text{
+    line-height: 49px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding-top: 14px;
+    word-spacing: 10px;
+    
+}
+
+.workspp{
+    margin-left: 10%;
+}
+
+.workspacetext h1{
+    padding-top: 24px;
+    padding-bottom: 36px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.workspacetext{
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+/* Work space over */
+
+#freelance h1{
 
 
+    padding-bottom: 48px;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+#freelance p{
+    padding-bottom: 36px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 .grid{
     padding-top: 30px;
@@ -182,13 +255,7 @@ width: 100%;
     border-color: white;
 }
 
-.card-title{
-    color: #55C6E6;
-    text-align: center;
-    font-size:30px;
-    font-weight: bolder;
-    padding-top: 85px;
-}
+
 .card-text{
     font-size: 24px;
     word-spacing: 1px;
@@ -202,15 +269,7 @@ width: 100%;
     font-size:30px;
     font-weight: bolder;
 }
-.rightcard-text{
-    line-height: 49px;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    padding-top: 14px;
-    word-spacing: 10px;
-    
-}
+
 .back{
     background: rgb(0, 0, 0);
     height: 435px;
